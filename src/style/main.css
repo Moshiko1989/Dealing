@@ -1,0 +1,36 @@
+@import url('vars.css');
+
+body {
+    background: var(--colorA);
+    /* background: blue; */
+}
+
+button {
+    background: var(--colorA);
+    color: var(--colorC);
+    border: 1px solid var(--colorA);
+    cursor: pointer;
+  }
+a {
+    color: var(--colorC);
+    text-decoration: none;
+  }
+input {
+    background: var(--colorB);
+    color: var(--colorA);
+    padding: 3px;
+    /* margin: 3px; */
+}
+input, textarea, select, button {
+    transition: all 50ms;
+}
+input:focus, textarea:focus, select:focus, button:focus {
+    outline-offset: 2px;
+    outline-color: var(--colorC);
+}
+label, label > input {
+    cursor: pointer;
+}
+/* .swal-modal > * {
+    background: green;
+} */
